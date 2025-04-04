@@ -1,6 +1,7 @@
 name: Run Playwright Tests
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
@@ -38,4 +39,3 @@ jobs:
         with:
           name: playwright-report
           path: playwright-report
-          
