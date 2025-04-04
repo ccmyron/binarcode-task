@@ -1,0 +1,25 @@
+{
+  "name": "binarcode-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccmyron/binarcode-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccmyron/binarcode-task/issues"
+  },
+  "homepage": "https://github.com/ccmyron/binarcode-task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
